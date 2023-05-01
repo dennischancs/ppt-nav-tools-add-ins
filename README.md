@@ -44,8 +44,10 @@ TypeScript 代码编译成 JavaScript
 npm run build
 ```
 
-### 打包并发布
-将生成的 index.html 和 dist 文件夹打包成一个 ZIP 文件，然后将该 ZIP 文件作为 PowerPoint [sideload add-in插件上传](https://learn.microsoft.com/zh-cn/office/dev/add-ins/testing/sideload-office-add-ins-for-testing) 并安装即可。
+### 发布
+找到生成的 dist 文件夹，上传mainfest.xml到office my add-ins（要开发者账号），参考：[sideload add-in插件上传](https://learn.microsoft.com/zh-cn/office/dev/add-ins/testing/sideload-office-add-ins-for-testing)。
+
+注：需要一个网站。可以使用github page部署
 
 ## Todo
 
